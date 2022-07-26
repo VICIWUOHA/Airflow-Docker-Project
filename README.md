@@ -10,11 +10,11 @@
 
 
 ### **Preview of Dag Run in Airflow Tree View**
-![Image View](utils\sample_dag_tree_view_run.PNG)
+![Image View](utils/sample_dag_tree_view_run.PNG)
 
 
 ### **Preview of Dag Run (summarized) in Airflow Graph View**
-![Image View](utils\dag_run_view_graph.png)
+![Image View](utils/dag_run_view_graph.png)
 
 
 
