@@ -1,0 +1,5 @@
+*.csv
+*.txt
+*.log
+dags/includes/*
+*__pycache__*
