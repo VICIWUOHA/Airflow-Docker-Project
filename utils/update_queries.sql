@@ -30,7 +30,7 @@ WITH new_products_table as (
         DO NOTHING 
 ;
 -- At the end of the transaction, Update all dates in the competitor prices db
--- from the stg table
+-- from the stg table except the retired products which would not be available on stg table
 UPDATE competitor_prices cp
 SET date_extracted = stg.date
 FROM competitor_prices_stg AS stg
